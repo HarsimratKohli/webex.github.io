@@ -1,18 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title> Portfolio</title>
-        <link href="styles/styles.css" rel="stylesheet">
-    </head>
-    <body>
 
-        <div id="main">
-            <p>Hello Work</p>
-            <h1></h1>
-            <img id="image-1" src="images/1.jpg" alt="Welcome image">
-        </div>
-        <script src="scripts/main.js"></script>
-    </body>
-    </html>
+<head>
+    <title>Catalogue Website</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Catalogue Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#featured">Featured Items</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="featured">
+            <h2>Featured Items</h2>
+            <div class="featured-item">
+                <img src="images/DALL·E 2023-01-09 21.18.17 - Create images of items found on ecommerce sites 50 years from now.png"
+                    alt="Item 1">
+                <h3>Items found on ecommerce sites 50 years from now</h3>
+                <p>Description of item 1</p>
+                <p>Price: $50</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="featured-item">
+                <img src="images/DALL·E 2023-01-09 21.18.21 - Create images of items found on ecommerce sites 50 years from now.png"
+                    alt="Item 2">
+                <h3>Items found on ecommerce sites 50 years from now</h3>
+                <p>Description of item 2</p>
+                <p>Price: $100</p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="#category1">Category 1</a></li>
+                <li><a href="#category2">Category 2</a></li>
+                <li><a href="#category3">Category 3</a></li>
+            </ul>
+            <div id="category1">
+                <h3>Category 1</h3>
+                <div class="category-item">
+                    <img src="item3.jpg" alt="Item 3">
+                    <h4>Item 3</h4>
+                    <p>Description of item 3</p>
+                    <p>Price: $25</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="category-item">
+                    <img src="item4.jpg" alt="Item 4">
+                    <h4>Item 4</h4>
+                    <p>Description of item 4</p>
+                    <p>Price: $30</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div id="category2">
+                <h3>Category 2</h3>
+                <div class="category-item">
+                    <img src="item5.jpg" alt="Item 5">
+                    <h4>Item 5</h4>
+                    <p>Description of item 5</p>
+                    <p>Price: $35</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="category-item">
+                    <img src="item6.jpg" alt="Item 6">
+                    <h4>Item 6</h4>
+                    <p>Description of item 6</p>
+                    <p>Price: $35</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+</body>
+
 </html>
